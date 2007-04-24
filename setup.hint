@@ -1,0 +1,4 @@
+category: KDE
+requires: cygwin kdelibs4 qt3 libX11_6 libXtst6
+sdesc: "KDE virtual keyboard"
+ldesc: "A virtual keyboard for KDE"
