@@ -32,15 +32,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack kvkbd-0.4-X-src.tar.bz2
+  unpack kvkbd-0.4.5-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./kvkbd-0.4-X.cygport all
+  cygport ./kvkbd-0.4.5-X.cygport all
 
 This will create:
-  /usr/src/kvkbd-0.4-X-src.tar.bz2
-  /usr/src/kvkbd-0.4-X.tar.bz2
+  /usr/src/kvkbd-0.4.5-X-src.tar.bz2
+  /usr/src/kvkbd-0.4.5-X.tar.bz2
 
 -------------------------------------------
 
@@ -51,13 +51,13 @@ Files included in the binary package:
   /usr/share/applnk/Utilities/kvkbd.desktop
   /usr/share/apps/kvkbd/pics/dock.png
   /usr/share/apps/kvkbd/pics/tray.png
-  /usr/share/doc/Cygwin/kvkbd-0.4.README
+  /usr/share/doc/Cygwin/kvkbd-0.4.5.README
   /usr/share/doc/HTML/en/kvkbd/common
   /usr/share/doc/HTML/en/kvkbd/index.cache.bz2
   /usr/share/doc/HTML/en/kvkbd/index.docbook
-  /usr/share/doc/kvkbd-0.4/AUTHORS
-  /usr/share/doc/kvkbd-0.4/COPYING
-  /usr/share/doc/kvkbd-0.4/INSTALL
+  /usr/share/doc/kvkbd-0.4.5/AUTHORS
+  /usr/share/doc/kvkbd-0.4.5/COPYING
+  /usr/share/doc/kvkbd-0.4.5/INSTALL
   /usr/share/icons/hicolor/16x16/apps/kvkbd.png
   /usr/share/icons/hicolor/32x32/apps/kvkbd.png
 
@@ -65,7 +65,7 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 0.4-1 -----
+----- version 0.4.5-1 -----
 Version bump.
 
 ----- version 0.3.1-1 -----
