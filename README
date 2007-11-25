@@ -4,10 +4,10 @@ A virtual keyboard for KDE.
 
 Runtime requirements:
   cygwin-1.5.24-2
-  kdelibs4-3.5.7-1
-  libX11_6-1.1.1-1
-  libXtst6-1.0.1-1
-  qt3-3.3.8-1
+  kdelibs4-3.5.8-1
+  libX11_6-1.1.3-1
+  libXtst6-1.0.3-1
+  qt3-3.3.8-4
 
 Build requirements:
 (besides corresponding -devel packages)
@@ -15,7 +15,7 @@ Build requirements:
   autoconf2.5-2.61-1
   automake1.9-1.9.6-2
   binutils-20060817-1
-  cygport-0.3.5-1
+  cygport-0.3.7-1
   gawk-3.1.5-4
   gcc-core-3.4.4-3
   gcc-g++-3.4.4-3
@@ -27,20 +27,20 @@ Canonical website:
   http://www.kde-apps.org/content/show.php/?content=56019
 
 Canonical download:
-  http://www.kde-apps.org/CONTENT/content-files/56019-kvkbd-0..tar.gz
+  http://www.kde-apps.org/CONTENT/content-files/56019-kvkbd-0.4.7.tar.gz
 
 -------------------------------------------
 
 Build instructions:
-  unpack kvkbd-0.4.5-X-src.tar.bz2
+  unpack kvkbd-0.4.7-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./kvkbd-0.4.5-X.cygport all
+  cygport ./kvkbd-0.4.7-X.cygport all
 
 This will create:
-  /usr/src/kvkbd-0.4.5-X-src.tar.bz2
-  /usr/src/kvkbd-0.4.5-X.tar.bz2
+  /usr/src/kvkbd-0.4.7-X-src.tar.bz2
+  /usr/src/kvkbd-0.4.7-X.tar.bz2
 
 -------------------------------------------
 
@@ -51,19 +51,22 @@ Files included in the binary package:
   /usr/share/applnk/Utilities/kvkbd.desktop
   /usr/share/apps/kvkbd/pics/dock.png
   /usr/share/apps/kvkbd/pics/tray.png
-  /usr/share/doc/Cygwin/kvkbd-0.4.5.README
+  /usr/share/doc/Cygwin/kvkbd-0.4.7.README
   /usr/share/doc/HTML/en/kvkbd/common
   /usr/share/doc/HTML/en/kvkbd/index.cache.bz2
   /usr/share/doc/HTML/en/kvkbd/index.docbook
-  /usr/share/doc/kvkbd-0.4.5/AUTHORS
-  /usr/share/doc/kvkbd-0.4.5/COPYING
-  /usr/share/doc/kvkbd-0.4.5/INSTALL
+  /usr/share/doc/kvkbd-0.4.7/AUTHORS
+  /usr/share/doc/kvkbd-0.4.7/COPYING
+  /usr/share/doc/kvkbd-0.4.7/INSTALL
   /usr/share/icons/hicolor/16x16/apps/kvkbd.png
   /usr/share/icons/hicolor/32x32/apps/kvkbd.png
 
 ------------------
 
 Port Notes:
+
+----- version 0.4.7-1 -----
+Version bump.
 
 ----- version 0.4.5-1 -----
 Version bump.
