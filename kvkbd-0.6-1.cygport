@@ -1,6 +1,0 @@
-inherit kde4
-
-DESCRIPTION="KDE virtual keyboard"
-HOMEPAGE="http://www.kde-apps.org/content/show.php/?content=94374"
-SRC_URI="http://www.kde-apps.org/CONTENT/content-files/94374-${P}.tar.bz2"
-PATCH_URI="0.6-no-undefined.patch"

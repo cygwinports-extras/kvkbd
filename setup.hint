@@ -1,4 +1,0 @@
-category: KDE
-requires: libgcc1 libkdecore5 libQtCore4 libQtDBus4 libQtGui4 libstdc++6 libX11_6 libXtst6
-sdesc: "KDE virtual keyboard"
-ldesc: "A virtual keyboard for KDE"
