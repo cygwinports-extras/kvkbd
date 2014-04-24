@@ -1,11 +1,10 @@
 inherit kde4
 
 NAME="kvkbd"
-VERSION=0.6
+VERSION=0.7.1
 RELEASE=1
 CATEGORY="KDE"
 SUMMARY="KDE virtual keyboard"
 DESCRIPTION="A virtual keyboard for KDE"
-HOMEPAGE="http://www.kde-apps.org/content/show.php/?content=94374"
-SRC_URI="http://www.kde-apps.org/CONTENT/content-files/94374-kvkbd-${VERSION}.tar.bz2"
-PATCH_URI="0.6-no-undefined.patch"
+HOMEPAGE="http://www.kde-apps.org/content/show.php/?content=56019"
+SRC_URI="http://www.kde-apps.org/CONTENT/content-files/56019-kvkbd-${VERSION}.tar.gz"
